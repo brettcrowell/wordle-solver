@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
+  text-transform: title-case;
+}
+
+input {
+  width: 1em;
+  margin: 1em;
+  background-color: lightgreen;
+  border: none;
+}
+
+input[name="known"] {
+  width: 10em;
+  background-color: lightyellow;
+}
+
+input:disabled,
+textarea:disabled {
+  background-color: #ccc;
+}
+
+pre {
+  display: flex;
+  flex-direction: column;
+}
+
+.omissions {
+  width: 30em;
+  height: 5em;
+}
+
+textarea {
+  background-color: lightgray;
+}
